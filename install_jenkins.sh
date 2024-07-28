@@ -7,4 +7,5 @@ sudo dnf install java-11-amazon-corretto -y  # installs Amazon Corretto 11, whic
 sudo yum install jenkins -y  #installs Jenkins itself
 sudo systemctl enable jenkins  #enables the Jenkins service to start automatically at boot time
 sudo systemctl start jenkins   #starts the Jenkins service immediately
-sudo yum install -y git
+sudo yum install -y 
+git --version
